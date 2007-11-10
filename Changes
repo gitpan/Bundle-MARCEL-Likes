@@ -1,0 +1,10 @@
+---
+global:
+  name: Bundle-MARCEL-Likes
+releases:
+  - author: 'Marcel Gruenauer <marcel@cpan.org>'
+    changes:
+      - original version
+    date: 2007-11-10T16:07:56Z
+    tags: []
+    version: 0.01
