@@ -4,6 +4,23 @@ global:
 releases:
   - author: 'Marcel Gruenauer <marcel@cpan.org>'
     changes:
+      - Added Test::Perl::Critic
+      - Added Module::Install
+      - Added Module::AutoInstall
+      - removed erroneous 'use base' statement
+      - '.shipit: added Twitter step'
+      - 'Makefile.PL: added auto_install() and process_templates()'
+      - 'lib/*: converted to template'
+      - updated MANIFEST
+      - added DBI because DBD::SQLite doesn't seem to require it it self
+      - updated t/perlcriticrc
+    date: 2007-11-21T18:20:41Z
+    tags:
+      - NEWFEATURE
+      - BUGFIX
+    version: 0.02
+  - author: 'Marcel Gruenauer <marcel@cpan.org>'
+    changes:
       - original version
     date: 2007-11-10T16:07:56Z
     tags: []
